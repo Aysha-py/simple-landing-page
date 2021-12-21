@@ -41,15 +41,20 @@ priceList.innerHTML= displaypricing.join("")
 
 
 const togglebtn = document.getElementById("nav-icon1")
-const sideReveal =document.getElementById("header")
-
+var x =document.getElementById("header")
 
 togglebtn.addEventListener("click",function(){
   
     togglebtn.classList.toggle('open');
     
-    if (sideReveal.style.display==="none"){
-        sideReveal.style.display= "block"
-    }
-
+        
+        if (x.style.display=== "none"){
+            x.style.display = "block";
+        }
+        else{
+            x.style.display = "none"
+        }
+    
+    
 })
+
