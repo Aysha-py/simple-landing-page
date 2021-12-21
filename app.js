@@ -38,3 +38,18 @@ const displaypricing = price.map(function(item){
 
 const priceList =document.getElementById("price-grid");
 priceList.innerHTML= displaypricing.join("")
+
+
+const togglebtn = document.getElementById("nav-icon1")
+const sideReveal =document.getElementById("header")
+
+
+togglebtn.addEventListener("click",function(){
+  
+    togglebtn.classList.toggle('open');
+    
+    if (sideReveal.style.display==="none"){
+        sideReveal.style.display= "block"
+    }
+
+})
