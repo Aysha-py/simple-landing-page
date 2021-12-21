@@ -10,6 +10,10 @@ main{
     background-color: #EEEBDD;
    
 }
+.one{
+    display: flex;
+    justify-content: space-between;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -18,10 +22,14 @@ main{
     
 
 }
-
+.header-img{
+    margin-left: 50px;
+    margin-right:400px;
+}
 .header-dropdown{
     display: flex;
     list-style: none;
+    margin-left: 20px;
     
 }
 .header-dropdown li{
@@ -70,10 +78,12 @@ main{
 
 .header-form button{
     background-color: royalblue;
+    color: black;
     width: 100px;
     height: 40px;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
 
 }
 .header-form button:hover{
@@ -362,11 +372,13 @@ a{
     }
     .header-img{
         display: flex;
+        margin:0px;
         
     }
     .header-dropdown{
         display: flex;
         flex-direction: column;
+        margin-left: 0px;
         
   
     }
@@ -386,6 +398,11 @@ a{
     border-radius:5px;
     margin-top: 10px;
  
+   }
+   .header-form button:hover{
+       cursor: pointer;
+       background-color: white;
+       color: black;
    }
 #sign-in{
     margin: 10px 3px 3px 3px;
