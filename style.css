@@ -450,5 +450,28 @@ a{
     .chat-us h1{
         width: 100vw;
     }
-
+    .product-update{
+        width: 100vw;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .update-txt{
+      text-align: center;
+      width: 100vw;
+        
+    }
+    .update-list li{
+        font-size:1.2rem;
+    }
+    .update-img{
+        margin: auto;
+    }
+    #price-grid{
+        display:flex;
+        flex-direction: column;
+    }
+    .footer p{
+        font-size: 1rem;
+    }
 }
